@@ -7,12 +7,8 @@ class PasswordInput extends React.Component {
   }
 
   render() {
-    const { count, key } = this.props
-
     return (
-      <div>
-        <input type="password" key={key} count={count} />
-      </div>
+      <input type="password" />
     )
   }
 }

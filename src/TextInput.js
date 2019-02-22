@@ -7,12 +7,8 @@ class TextInput extends React.Component {
   }
 
   render() {
-    const { count, key } = this.props
-
     return (
-      <div>
-        <input type="text" key={key} count={count} />
-      </div>
+      <input type="text" />
     )
   }
 }

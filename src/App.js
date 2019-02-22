@@ -26,7 +26,7 @@ class App extends React.Component {
     if (toggleInput){
       input = <TextInput id={`count-${count}`} key={count} />
     } else {
-      input = <PasswordInput key={count} id={`count-${count}`} />
+      input = <PasswordInput id={`count-${count}`} key={count} />
     }
 
     return (
