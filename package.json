@@ -2,7 +2,7 @@
   "name": "my-app",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://iericallen.github.io/test-react",
+  "homepage": "https://iericallen.github.io/test-react",
   "dependencies": {
     "react": "^16.8.2",
     "react-dom": "^16.8.2",
