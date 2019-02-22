@@ -9,7 +9,7 @@
     "react-scripts": "2.1.5"
   },
   "scripts": {
-    "deploy": "gh-pages -d build",
+    "deploy": "gh-pages -b master -d build",
     "predeploy": "yarn build",
     "build": "react-scripts build",
     "eject": "react-scripts eject",
