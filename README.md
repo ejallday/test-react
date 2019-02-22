@@ -1,4 +1,15 @@
+# React Memory leak DEMO
+
+The purpose of this simple React app is to demonstrate what we believe to be a memory leak associated with `Detached HTMLInputElements` when the input type is `password`.
+
+Visit this [Github Page](https://iericallen.github.io/test-react/) for the demo.
+
+In addition to following the steps in the link above, feel free to clone or fork this repo and change the input type in the  `PasswordInput` component to `type="text"` and you can see that the `Detached HTMLInputElements` are no longer present.
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+---
 
 ## Available Scripts
 
